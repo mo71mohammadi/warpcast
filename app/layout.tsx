@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Wrapcaster Frame',
     description: 'A simple frame for Wrapcaster',
-    images: ['https://your-image-url.com/image.jpg'],
+    images: ['https://images.unsplash.com/photo-1707343843437-caacff5cfa74?w=1200&h=630&fit=crop&q=80'],
   },
   other: {
     'fc:frame': 'vNext',
-    'fc:frame:image': 'https://your-image-url.com/image.jpg',
+    'fc:frame:image': 'https://images.unsplash.com/photo-1707343843437-caacff5cfa74?w=1200&h=630&fit=crop&q=80',
     'fc:frame:button:1': 'Button 1',
     'fc:frame:button:2': 'Button 2',
-    'fc:frame:post_url': 'https://your-domain.com/api/frame'
+    'fc:frame:post_url': 'https://warpcast-sigma.vercel.app/api/frame'
   }
 };
 

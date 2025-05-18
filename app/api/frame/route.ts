@@ -7,7 +7,7 @@ export async function POST(req: Request) {
   // برای مثال: بررسی دکمه‌ای که کاربر کلیک کرده، ذخیره اطلاعات و غیره
   return new NextResponse(
     JSON.stringify({
-      image: "https://your-image-url.com/next-image.jpg",
+      image: "https://wrpcd.net/cdn-cgi/imagedelivery/BXluQx4ige9GuW0Ia56BHw/e230da4c-d64f-4612-4b8a-500bfd179800/rectcontain3",
       buttons: [
         { label: 'Button 1', action: 'post' },
         { label: 'Button 2', action: 'post' }
